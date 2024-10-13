@@ -7,8 +7,8 @@ class Solution {
             if(prices[i]<smallest) {
                 smallest=prices[i];
             }else{
-                          profit = Math.max(profit, prices[i] - smallest);
-                
+                if(profit<(prices[i]-smallest))
+                profit=prices[i]-smallest;                
             }
         }
         return profit;
