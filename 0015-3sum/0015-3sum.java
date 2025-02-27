@@ -1,30 +1,44 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> triplets=new ArrayList<>();
         Arrays.sort(nums);
-        List<List<Integer>> result = new ArrayList<>();
-        for (int i = 0; i < nums.length - 2; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;
-            }
-            int left = i + 1, right = nums.length - 1;
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                if (sum == 0) {
-                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    while (left < right && nums[left + 1] == nums[left])
-                        left++;
-                    while (left < right && nums[right] == nums[right - 1])
-                        right--;
 
-                    left++;
-                    right--;
-                } else if (sum < 0)
-                    left++;
-                else
-                    right--;
+        int numsLength=nums.length;
+        
+        int i=0,j,k,sum;
 
-            }
+        while(i<numsLength-2){
+       if(i>0 && nums[i]==nums[i-1]) {
+        i++;
+        continue;
         }
-        return result;
+
+            j=i+1;
+            k=numsLength-1;
+            sum=-1;
+            while(j<k){
+                 if(j>i+1 && nums[j]==nums[j-1]) {
+        j++;
+        continue;
+        }
+         if(k<j && nums[k-1]==nums[k]) {
+        k--;
+        continue;
+        }
+                sum=nums[i]+nums[j]+nums[k];
+                if(sum==0){
+                    triplets.add(Arrays.asList(nums[i],nums[j],nums[k]));
+                    j++;
+                    k--;
+                } 
+                else if(sum<0)
+                    j++;
+                else
+                    k--;
+            }
+            i++;
+        } 
+
+        return triplets;       
     }
 }
