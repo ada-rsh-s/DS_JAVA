@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int sLength = s.length();
-        ArrayList<Character> longSub = new ArrayList<>();
+        HashSet<Character> longSub = new HashSet<>();
         int count = 0;
 
         for (int i = 0; i < sLength; i++) {
@@ -12,9 +12,7 @@ class Solution {
                  else 
                     longSub.add(s.charAt(j));
             }
-            System.out.println(longSub);
-            if (count<longSub.size() )
-                count = longSub.size();
+                count = Math.max(count,longSub.size());
             longSub.clear();
         }
 
