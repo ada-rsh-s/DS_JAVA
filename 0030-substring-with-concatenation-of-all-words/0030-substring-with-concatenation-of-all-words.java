@@ -8,23 +8,48 @@ class Solution {
         Map<String, Integer> wordFreq = new HashMap<>();
         List<Integer> startIndices = new ArrayList<>();
 
+        // Build the frequency map for words
         for (String word : words) {
             wordFreq.put(word, wordFreq.getOrDefault(word, 0) + 1);
         }
 
-        for (int i = 0; i <= sLength - totalWordLength; i++) {
+        // Iterate over every possible starting position
+        for (int i = 0; i < singleWordLength; i++) {
+            int left = i, right = i;
             Map<String, Integer> currWordFreq = new HashMap<>();
+            int count = 0;
 
-            String currString = s.substring(i, i + totalWordLength);
+            // Slide the window over the string
+            while (right + singleWordLength <= sLength) {
+                String word = s.substring(right, right + singleWordLength);
+                right += singleWordLength;
 
-            for (int j = 0; j < totalWordLength; j += singleWordLength) {
-                String currWord = currString.substring(j, j + singleWordLength);
-                currWordFreq.put(currWord, currWordFreq.getOrDefault(currWord, 0) + 1);
+                // If the word is valid, add it to the current window
+                if (wordFreq.containsKey(word)) {
+                    currWordFreq.put(word, currWordFreq.getOrDefault(word, 0) + 1);
+                    count++;
+
+                    // Shrink the window if the frequency of the word exceeds the allowed frequency
+                    while (currWordFreq.get(word) > wordFreq.get(word)) {
+                        String leftWord = s.substring(left, left + singleWordLength);
+                        currWordFreq.put(leftWord, currWordFreq.get(leftWord) - 1);
+                        left += singleWordLength;
+                        count--;
+                    }
+
+                    // If all words are found, record the starting index
+                    if (count == wordsLength) {
+                        startIndices.add(left);
+                    }
+                } else {
+                    // Reset the window if an invalid word is found
+                    currWordFreq.clear();
+                    count = 0;
+                    left = right;
+                }
             }
-            if (currWordFreq.equals(wordFreq))
-                startIndices.add(i);
         }
+
         return startIndices;
     }
-
 }
