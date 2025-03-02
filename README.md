@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0380-insert-delete-getrandom-o1) |
 ## Dynamic Programming
 |  |
@@ -140,4 +141,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0209-minimum-size-subarray-sum) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
