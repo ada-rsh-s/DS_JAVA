@@ -35,7 +35,7 @@ class Solution {
                     if (validWordCount==wordsLength)
                         startIndices.add(left);
                 } else {
-                    currWordFreq.clear();
+                    currWordFreq = new HashMap<>();
                     left=right;
                     validWordCount=0;
 
