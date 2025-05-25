@@ -1,24 +1,43 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        Set<Integer> i_set = new HashSet<>();
-        Set<Integer> j_set = new HashSet<>();
-        
+        boolean firstRow=false,firstCol=false;
+
         for(int i =0;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
+         if(matrix[i][0]==0 )
+                    firstCol=true;
+                if(matrix[0][j]==0 )
+                    firstRow=true;
+            }
+        }
+
+        for(int i =1;i<matrix.length;i++){
+            for(int j=1;j<matrix[0].length;j++){
                 if(matrix[i][j]==0)
                 {
-                    i_set.add(i);
-                    j_set.add(j);
+                    matrix[i][0]=0;
+                    matrix[0][j]=0;    
                 }
             }
         }
 
-        for(int i =0;i<matrix.length;i++){
-            for(int j=0;j<matrix[0].length;j++){
-                if(i_set.contains(i) || j_set.contains(j)){
+        for(int i =1;i<matrix.length;i++){
+            for(int j=1;j<matrix[0].length;j++){
+                if(matrix[i][0]==0 || matrix[0][j]==0){
                     matrix[i][j]=0;
                 }
             }
         }
+
+        if(firstRow){
+          for(int i =0;i<matrix[0].length;i++){
+                    matrix[0][i]=0;
+            }
+        }
+        if(firstCol){
+            for(int i =0;i<matrix.length;i++){
+                    matrix[i][0]=0;
+            }
+        }   
     }
 }
