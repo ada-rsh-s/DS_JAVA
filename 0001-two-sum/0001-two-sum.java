@@ -4,16 +4,11 @@ class Solution {
         
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            
-            if (numMap.containsKey(complement)) {
-                // complement found, return indices
-                return new int[]{numMap.get(complement), i};
+            if(numMap.containsKey(complement)){
+               return new int[] {i,numMap.get(complement)};
             }
-            
-            numMap.put(nums[i], i);
+            numMap.put(nums[i],i);
         }
-        
-        // If no pair found
-        return new int[]{};  // or throw exception, depends on problem constraints
-    }
+        return new int[] {};
+}
 }
