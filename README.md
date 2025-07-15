@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0289-game-of-life](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Two Pointers
 |  |
 | ------- |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0238-product-of-array-except-self) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Stack
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0209-minimum-size-subarray-sum) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Sliding Window
 |  |
 | ------- |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0289-game-of-life) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Union Find
 |  |
 | ------- |
