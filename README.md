@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0324-wiggle-sort-ii](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0324-wiggle-sort-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0792-binary-search](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0792-binary-search) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Two Pointers
 |  |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0209-minimum-size-subarray-sum) |
+| [0792-binary-search](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0792-binary-search) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/ada-rsh-s/DS_JAVA/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Sliding Window
 |  |
