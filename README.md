@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0792-binary-search](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0792-binary-search) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0074-search-a-2d-matrix) |
 | [0289-game-of-life](https://github.com/ada-rsh-s/DS_JAVA/tree/master/0289-game-of-life) |
 ## Simulation
 |  |
